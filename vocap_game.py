@@ -102,7 +102,7 @@ ans3 = st.text_input
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input
-    "ข้อ 4: It uses ink to write. `R u _ e _`. 📏",
+    "ข้อ 4: It has numbers to measure length or centimeters. `R u _ e _`. 📏",
     value=st.session_state.ans4_val,
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
