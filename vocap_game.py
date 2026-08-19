@@ -43,9 +43,9 @@ def show_result_dialog(ans1, ans2):
     else:
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
- st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
+    st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
- if score == 2:
+    if score == 2:
         st.success("🎉 You win!")
     else:
         st.error("💀 You lose!")
